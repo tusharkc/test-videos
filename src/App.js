@@ -4,18 +4,15 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <div>
-        <video
-          height="326px"
-          className="video_nft"
-          autoPlay
-          loop
-          playsInline
-          controls
-        >
-          <source src="https://ipfs.atomichub.io/ipfs/QmU2PrqwxcZFiGRAG2he6RumSizsVEAfa6uSmJieYJyLnX" />
-        </video>
-      </div>
+      <iframe
+        width="640"
+        height="360"
+        src="https://www.youtube.com/embed/NgrI5qwayVc"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
     </div>
   );
 }
